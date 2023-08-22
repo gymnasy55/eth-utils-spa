@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
   ],
   build: {
+    outDir: "../dist",
     watch: false,
     sourcemap: true,
     polyfillDynamicImport: false,
