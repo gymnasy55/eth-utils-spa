@@ -1,7 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-refresh';
+import * as path from 'path';
 
 export default defineConfig({
+  root: path.join(__dirname, 'src'),
   plugins: [
     react(),
   ],
