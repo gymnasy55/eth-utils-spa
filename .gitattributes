@@ -1,0 +1,4 @@
+*.mjs            linguist-generated
+
+.yarn/**             linguist-vendored
+.yarn/releases/*     binary linguist-vendored
